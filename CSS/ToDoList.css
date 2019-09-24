@@ -45,3 +45,34 @@ input {
     background-color: plum;
 }
 
+/* Styles for the UL and LI's */
+ul {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20pt;
+}
+
+li {
+    list-style: square;
+    border: 3px solid cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 8px;
+    color: navy;
+    font-weight: bold;
+    background-color: cadetblue;
+    transition: all .75s ease;
+    -webkit-transition: all .75s ease;
+    -moz-transition: all .75s ease;
+    -o-transition: all .75s ease;
+}
+
+li:hover {
+    background-color: plum;
+}
+
+/* Styles for when a list item is marked done */
+.done {
+    background-color: cornflowerblue !important;
+}
+
